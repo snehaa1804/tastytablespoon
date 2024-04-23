@@ -54,30 +54,7 @@
   background-color: #cf711f;
 }
 
-.btn-mobile-nav {
-  border: none;
-  background: none;
-  cursor: pointer;
-
-  display: none;
-}
-
-.icon-mobile-nav {
-  height: 4.8rem;
-  width: 4.8rem;
-  color: #333;
-  padding-top: 0;
-  padding-bottom: 0;
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
-}
-
-.icon-mobile-nav[name="close-outline"] {
-  display: none;
-}
-
-/* ------------------------------------ */
 /* STICKY NAV */
-/* ------------------------------------ */
 
 .sticky .header {
   position: fixed;
@@ -86,16 +63,13 @@
   background-color: rgba(255, 255, 255, 0.97);
   z-index: 999;
   height: 8rem;
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
 
 .sticky .hero-section {
   margin-top: 9.6rem;
 }
 
-/* ------------------------------------ */
 /* HERO SECTION */
-/* ------------------------------------ */
 
 .hero-section {
   background-color: #fdf2e9;
@@ -308,7 +282,7 @@
 }
 
 .tag-plaeo {
-  background-color: #ffd43b;
+  background-color: #f3c82e;
 }
 
 .meal-icon {
@@ -320,27 +294,6 @@
 .all-recipes {
   text-align: center;
   font-size: 1.8rem;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1.6rem;
-  padding: 1.6rem;
-}
-
-.gallery-item img {
-  display: block;
-  width: 100%;
-  transition: all 0.4s;
-}
-
-.gallery-item {
-  overflow: hidden;
-}
-
-.gallery-item img:hover {
-  transform: scale(1.1);
 }
 
 /* PRICING SECTION */
